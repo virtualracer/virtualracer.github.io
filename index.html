@@ -33,21 +33,26 @@
 		a {text-decoration: none; color: indianred}
 		h1 {color: red}
 
+		.zoom {
+  transition: transform .2s; }
+		.zoom:hover {
+  transform: scale(1.2);}
+
 	</style>
 	<title>Index</title>
 </head>
 <body>
 <center><h1>Contents</h1>
-<table border="5px" bordercolor="red" cellpadding="10px">
-	<td><a href="about.html#pic" target="iframe_a">About Me </a></td>
+<table border="5px" bordercolor="#D72F07" cellpadding="25px">
+	<td><a href="about.html#pic" target="iframe_a"><div class="zoom">About Me</div> </a></td>
 
-  <td><a href="location.html#add" target="iframe_a"> My Location </a></td>
-
-  <td><a href="qualification.html#qual" target="iframe_a"> Qualifications </a></td>
-
-  <td><a href="semester.html#sem" target="iframe_a"> Semester Subjects </a></td>
-
-  <td><a href="html.html#htm" target="iframe_a"> About HTML TAGS</a></td>
+  <td><a href="location.html#add" target="iframe_a"> <div class="zoom">My Location </div> </a></td>
+<div class="zoom">
+  <td><a href="qualification.html#qual" target="iframe_a"> <div class="zoom">Qualifications </div> </a></td>
+<div class="zoom">
+  <td><a href="semester.html#sem" target="iframe_a"><div class="zoom"> Semester Subjects </div> </a></td>
+<div class="zoom">
+  <td><a href="html.html#htm" target="iframe_a"> <div class="zoom">About HTML TAGS</div> </a></td>
 	</table>
 	<br>
 	<iframe id="frame" height="640px" width="100%"  name="iframe_a" frameborder="0" allowtransparency="true"></iframe>
