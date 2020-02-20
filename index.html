@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+		#animated_div {
+		width:80px;
+		height:50px;
+		background: #F44548;
+		color: #ffffff;
+		position: inherit;
+		font-weight:bold;
+		font-size:20px;
+		padding:10px;
+		animation:animated_div 5s 1;
+		border-radius:5px;
+		-webkit-border-radius:5px;
+		}
+
+		@keyframes animated_div
+		{
+		0% {transform: rotate(0deg);left:0px;}
+		25% {transform: rotate(20deg);left:0px;}
+		50% {transform: rotate(0deg);left:500px;}
+		55% {transform: rotate(0deg);left:500px;}
+		70% {transform: rotate(0deg);left:500px;background:#F23E41;}
+		100% {transform: rotate(-360deg);left:0px;}
+		}
+
+		table{border-radius: 10px}
+		html {scroll-behavior: smooth}
+		body {background-image: url(icons/bg.png);color: white;font-family: Trebuchet MS; font-size: 25px; margin: 10px}
+		a {text-decoration: none; color: indianred}
+		h1 {color: red}
+
+	</style>
+	<title>Index</title>
+</head>
+<body>
+<center><h1>Contents</h1>
+<table border="5px" bordercolor="red" cellpadding="10px">
+	<td><a href="about.html#pic" target="iframe_a">About Me </a></td>
+
+  <td><a href="location.html#add" target="iframe_a"> My Location </a></td>
+
+  <td><a href="qualification.html#qual" target="iframe_a"> Qualifications </a></td>
+
+  <td><a href="semester.html#sem" target="iframe_a"> Semester Subjects </a></td>
+
+  <td><a href="html.html#htm" target="iframe_a"> About HTML TAGS</a></td>
+	</table>
+	<br>
+	<iframe id="frame" height="640px" width="100%"  name="iframe_a" frameborder="0" allowtransparency="true"></iframe>
+</center>
+	<div id="animated_div">Made By Sambhav</div>
+</body>
+</html>
