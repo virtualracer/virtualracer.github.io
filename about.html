@@ -7,6 +7,14 @@
 		h1 {color: orangered; font-family: Trebuchet MS}
 		p {color: white; font-family: Cambria; font-size: 20px}
 		#bio{font-family: "Gabriola"; font-size: 30px}
+
+		.zoom {
+  transition: transform .2s; 
+		}
+		.zoom:hover {
+  transform: scale(1.2);
+		}
+
 	</style>
 	<title>About Me</title>
 </head>
@@ -14,14 +22,14 @@
 <h1 align="center" style="font-size: 40px">ABOUT ME</h1>
 <br><br>
 <center>
-  <p><img id="pic" src="icons/pic.png" height="200px"></p>
+	<p id="pic">&nbsp</p>
+  <div class="zoom"><img src="icons/pic.png" height="200px"></div>
   <p>&nbsp; </p>
   <p style="font-size: 25px; font-family: Trebuchet MS; text-shadow: 1.5px 1.5px 0 red"><strong>Kumar Sambhav</strong></p>
 <p>&nbsp;</p>
 <p><strong>19</strong> , Lives in <strong>Jaipur</strong></p>
 <p>Student at <strong>Indian Institute of Information Technology, Kota</strong></p>
 	<p id="bio">I’m so poor, I can’t even pay attention! </p>
-	<p>&nbsp;</p>
 
 
 <center>
