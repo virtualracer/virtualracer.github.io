@@ -43,9 +43,16 @@
   transform: scale(1.2);
 		color:green;}
 	
+.foot {
+  transition: transform .2s; 
+		}
+		.foot:hover {
+  transform: scale(1.5);
+		}
+
 footer{
 	font-size: 15px;
-	font-family: Gabriela
+	font-family: Gabriela;
 }
 
 footer:hover{
@@ -73,6 +80,7 @@ footer:hover{
 	<iframe id="frame" height="680px" width="100%"  name="iframe_a" frameborder="0" allowtransparency="true" src="home.html"></iframe>
 </center>
 	<div id="animated_div"><img src="icons/logo.png" height="80px" width="80px" title="Made With ❤ By Kumar Sambhav"></div>
-	<center><footer>Made With ❤ By <strong>Kumar Sambhav<strong></footer></center>
+	<center><footer><table border="0px"><td>Made With</td><td><div class="foot"> ❤ </div></td><td><strong>By Kumar Sambhav</strong></td></table></footer>
+		<br>
 </body>
 </html>
