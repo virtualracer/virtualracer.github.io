@@ -43,12 +43,13 @@
   transform: scale(1.2);
 		color:green;}
 	
-.foot {
-  transition: transform .2s; 
-		}
-		.foot:hover {
-  transform: scale(1.5);
-		}
+.foot{
+	animation: fot .5s 100;
+}
+@keyframes fot{
+	50%{transform: scale(1.4);}
+	100%{transform: scale(1.0);}
+}
 
 footer{
 	font-size: 15px;
