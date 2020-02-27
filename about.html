@@ -19,14 +19,20 @@
 		p:hover{
 			color:orangered;
 		}
-
+		.tab{
+			animation: tab 0.5s;
+		}
+		@keyframes tab{
+			0%{transform: scale(0.2);}
+			100%{transform: scale(1);}
+		}
 	</style>
 	<title>About Me</title>
 </head>
 <body>
-<h1 align="center" style="font-size: 40px">ABOUT ME</h1>
 <br>
 <center>
+	<div class="tab">
 	<p id="pic">&nbsp</p>
   <div class="zoom"><img src="icons/pic.png" height="200px"></div>
   <p>&nbsp; </p>
@@ -40,7 +46,7 @@
 <center>
 	<a href="mailto:krsambhav16@gmail.com"><img src="icons/gmail.png" height="48px" width="48px"></a>&nbsp;
 	   <a href="https://twitter.com/KumarSa45537401" target="_blank"><img src="icons/twitter.png" height="50px" width="50px"></a>
-	<a href="https://www.linkedin.com/in/kumar-sambhav-b22563155/" target="_blank"><img src="icons/linked.png" height="48px" width="48px"></a>
+	<a href="https://www.linkedin.com/in/kumar-sambhav-b22563155/" target="_blank"><img src="icons/linked.png" height="48px" width="48px"></a></div>
 	</center>
 </center>
 </body>

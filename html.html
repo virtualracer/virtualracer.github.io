@@ -9,6 +9,14 @@
 		ol {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";font-size: 20px}
 		li {padding: 10px}
 		table {text-align: center; font-size: 20px; border-collapse: collapse;}
+		.tab{
+			animation: tab 0.5s;
+		}
+		@keyframes tab{
+			0%{transform: scale(0.2);}
+			100%{transform: scale(1);}
+		}
+
 		tr:hover{
 			background-color: white;
 			color: red;
@@ -20,7 +28,7 @@
 <h1 align="center" style="font-size: 40px">ABOUT HTML TAGS&nbsp;&nbsp;</h1>
 </center>
 <p id="htm">&nbsp;</p>
-<table border="1px" align="center" height="1500px" width="1200px" bordercolor=red>
+<div class="tab"><table border="1px" align="center" height="1500px" width="1200px" bordercolor=red>
 	<tr id="top"><td>&lt;!<strong>DOCTYPE</strong>&gt; tag </td><td> This tag defines the document type.</td></tr>
 	<tr><td>&lt;<strong>html</strong>&gt; tag </td><td> This tag is used to define HTML document.</td></tr>
 	<tr><td>&lt;<strong>head</strong>&gt; tag </td><td> This tag is used to define header for the HTML document. Title and Internal CSS lies inside this tag.</td></tr>
@@ -71,6 +79,6 @@
 	<tr><td>&lt;<strong>td</strong>&gt; </td><td> This tag defines a cell in a table.</td></tr>
 	<tr><td>&lt;<strong>meta</strong>&gt; </td><td> This tag defines metadata of the HTML document.</td></tr>
 	<tr><td>&lt;<strong>footer</strong>&gt; </td><td> This tag defines a footer for the document.</td></tr>
-</table>
+</table></div>
 </body>
 </html>

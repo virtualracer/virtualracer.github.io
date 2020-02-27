@@ -10,22 +10,27 @@
 		tr:hover{
 			color: red;
 		}
+		.tab{
+			animation: tab 0.5s;
+		}
+		@keyframes tab{
+			0%{transform: scale(0.2);}
+			100%{transform: scale(1);}
+		}
 	</style>
 	<title>About Me</title>
 </head>
 <body><center>
-<h1 align="center" style="font-size: 40px">SEMESTER SUBJECTS</h1>
-<p>&nbsp;</p>
-	<br><br><br><br>
-
-	<table id="sem" border="1px" bordercolor="green" height="600px" width="700px" cellpadding="10px">
+	<br>
+	<div class="tab">
+	<table  border="1px" bordercolor="green" height="600px" width="700px" cellpadding="10px">
 		<tr><td><strong>MAT102</strong></td><td> Mathematics</td></tr> 
 		<tr><td><strong>ECT102</strong></td><td> Electronic Devices and Circuits</td></tr>
 		<tr><td><strong>CST102</strong></td><td> Data Structures and Algorithms</td></tr>
 		<tr><td><strong>CST104</strong></td><td> Internet and Web Technologies</td></tr>
 		<tr><td><strong>HST102</strong></td><td> Health, Safety and Environment</td></tr>
 		<tr><td><strong>HST104</strong></td><td> Human Values and Effective Communication</td></tr>
-	</table>
+	</table></div>
 	<br><br><br><br><br><br><br><p></p>
 </center>
 </body>
