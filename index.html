@@ -13,13 +13,26 @@
 		button{font-family: "Cinzel Decorative";}
 		body{ scroll-behavior: smooth;}
 		footer{font-family: Gabriela;}
-		.foot{
+.foot{
 	animation: fot .5s 10000;
 }
 @keyframes fot{
 	50%{transform: scale(1.4);}
 	100%{transform: scale(1.0);}
 }
+button{
+	transition: transform 0.2s;
+}
+button:hover{
+	transform: scale(1.2);
+}
+footer{
+	color:white;
+}
+footer:hover{
+	color:red;
+}
+
 	</style>
 </head>
 <body background="icons/bg.png">
@@ -33,6 +46,6 @@
 	<a href="html.html" target="frm"><button type="button" class="btn btn-primary" style="height:80px; width: 150px; border-radius: 40px"><span class="glyphicon glyphicon-tag"></span> About <br> HTML Tags</button></a></div>
 <br>
 <center><iframe name="frm" src="home.html" height="800px" width="1400px" style="background-color: transparent; border: 0px"></iframe></center>
-<center><footer style="color:white">Made With &nbsp;<div class="foot" style="display: inline-block;"><span class="glyphicon glyphicon-heart"></span></div>&nbsp; By Kumar Sambhav</footer>
+<center><footer>Made With &nbsp;<div class="foot" style="display: inline-block;"><span class="glyphicon glyphicon-heart"></span></div>&nbsp; By Kumar Sambhav</footer>
 </body>
 </html>
