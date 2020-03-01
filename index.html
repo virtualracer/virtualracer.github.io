@@ -1,83 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Index</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet'>
-	<style>
-		
-		#animated_div {
-		width:80px;
-		height:50px;
-		color: #ffffff;
-		position: inherit;
-		font-weight:bold;
-		font-size:20px;
-		padding:10px;
-		animation:animated_div 5s 1;
-		border-radius:5px;
-		-webkit-border-radius:5px;
-		}
-
-		@keyframes animated_div
-		{
-		0% {transform: rotate(0deg);left:0px;}
-		25% {transform: rotate(20deg);left:0px;}
-		50% {transform: rotate(0deg);left:500px;}
-		55% {transform: rotate(0deg);left:500px;}
-		70% {transform: rotate(0deg);left:500px;}
-		100% {transform: rotate(-360deg);left:0px;}
-		}
-
-		table{border-radius: 10px}
-		html {scroll-behavior: smooth}
-		body {background-image: url(icons/bg.png);color: white;font-family: Trebuchet MS; font-size: 25px; margin: 10px}
-		a {text-decoration: none; color: red}
-		h1 {color: red; font-family: Cinzel Decorative; font-weight: 100px}
-
-
-		.zoom {
-			font-family: gabriela;
-  transition: transform .2s; 
-		}
-		.zoom:hover {
-  transform: scale(1.2);
-		color:green;}
-	
-.foot{
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		button{font-family: "Cinzel Decorative";}
+		body{background-image: url(icons/bg.png); scroll-behavior: smooth;}
+		footer{font-family: Gabriela;}
+		.foot{
 	animation: fot .5s 10000;
 }
 @keyframes fot{
 	50%{transform: scale(1.4);}
 	100%{transform: scale(1.0);}
 }
-
-footer{
-	font-size: 15px;
-	font-family: Gabriela;
-}
-
-footer:hover{
-	color:red;
-}
-
 	</style>
-	<title>Index</title>
 </head>
 <body>
-<center>
-<table border="0px" cellpadding="25px">
-		<td><a href="home.html" target="iframe_a"><div class="zoom">Home</div> </a></td>
-	<td><a href="about.html#pic" target="iframe_a"><div class="zoom">About Me</div> </a></td>
-  <td><a href="location.html#add" target="iframe_a"> <div class="zoom">Location </div> </a></td>
-  <td><a href="qualification.html#qual" target="iframe_a"> <div class="zoom">Qualifications</div> </a></td>
-  <td><a href="semester.html#sem" target="iframe_a"><div class="zoom">Semester Subjects</div> </a></td>
-  <td><a href="html.html#htm" target="iframe_a"> <div class="zoom">HTML TAGS</div> </a></td>
-	</table>
-	<br>
-	<iframe id="frame" height="680px" width="100%"  name="iframe_a" frameborder="0" allowtransparency="true" src="home.html"></iframe>
-</center>
-	<div id="animated_div"><img src="icons/logo.png" height="80px" width="80px" title="Made With &nbsp;❤&nbsp; By Kumar Sambhav"></div>
-	<center><footer><table border="0px"><td>Made With</td><td><div class="foot"> ❤ </div></td><td><strong>By Kumar Sambhav</strong></td></table></footer>
-		<br>
+	<div class="container" style="margin-top: 50px;" align="center">
+	<a href="home.html" target="frm"><button type="button" class="btn btn-danger" style="height:80px; width: 150px; border-radius: 40px"><span class="glyphicon glyphicon-home"></span> Home</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="about.html" target="frm"><button type="button" class="btn btn-info" style="height:80px; width: 150px; border-radius: 40px"><span class="glyphicon glyphicon-user"></span> About Me</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="location.html" target="frm"><button type="button" class="btn btn-primary" style="height:80px; width: 150px; border-radius: 40px"><span class="glyphicon glyphicon-map-marker"></span> Location</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Qualification.html" target="frm"><button type="button" class="btn btn-success" style="height:80px; width: 180px; border-radius: 40px"><span class="glyphicon glyphicon-flag"></span> Qualifications</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="semester.html" target="frm"><button type="button" class="btn btn-warning" style="height:80px; width: 150px; border-radius: 40px"><span class="glyphicon glyphicon-edit"></span> Semester<br> Subjects</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="html.html" target="frm"><button type="button" class="btn btn-primary" style="height:80px; width: 150px; border-radius: 40px"><span class="glyphicon glyphicon-tag"></span> About <br> HTML Tags</button></a></div>
+<br>
+<center><iframe name="frm" src="home.html" height="800px" width="1400px" style="background-color: transparent; border: 0px"></iframe></center>
+<center><footer style="color:white">Made With &nbsp;<div class="foot" style="display: inline-block;"><span class="glyphicon glyphicon-heart"></span></div>&nbsp; By Kumar Sambhav</footer>
 </body>
 </html>
