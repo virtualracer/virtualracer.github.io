@@ -6,7 +6,8 @@
 		html {scroll-behavior: smooth}
 		body {font-family:Bree Serif; color: white; margin: 50px; overflow: hidden;}
 		h1 {color: indianred}
-		iframe {border-radius: 5px}
+		iframe {border-radius: 5px; border: 0px;}
+		a{text-decoration: none; color: red;}
 
 				.zoom {
   transition: transform .2s; 
@@ -27,12 +28,10 @@
 	</style>
 	<title>My Location</title>
 </head>
-<body>
-	<div class="tab"><center><h2>Address : <br><br> Ganga Hostel, MNIT Jaipur, Jaipur, Rajasthan - 302017</h2>
-
-	  <p>Having Problems Reading? Check It Out On Google Maps 😎<br>
-      </p>
+<body><div class="tab">
+	<center><a href="loc.html" target="loc"><h2>Address : <br><br> Ganga Hostel, MNIT Jaipur, Jaipur, Rajasthan - 302017</h2></a>
+	<p>Having Problems Reading? Click On The Address<br></p><br>
+	<iframe name="loc" height="600px" width="800px"></iframe></div>
 	</center>
-	<center><div class="zoom"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.2352544666755!2d75.81403681527377!3d26.86426576864068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db67a8e68d33f%3A0x1023bdda2b9cf1ff!2sGanga%20hostel!5e0!3m2!1sen!2sin!4v1581868328174!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></div</center>
 </body>
 </html>
