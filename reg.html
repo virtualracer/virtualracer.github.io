@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+	<style>
+		#form{
+			animation: show 0.5s;
+		}
+		@keyframes show{
+			0%{transform: scale(0.2);}
+			100%{transform: scale(1);}
+		}
+
+		h1{color: orangered; font-family: "Trebuchet MS"; text-align: center;}
+		p{color: white; font-size: 25px; font-family: Gabriela;}
+		form{box-sizing: 100px;}
+		label{color: white; font-size: 25px; font-family: "Bree Serif"; padding: 10px;}
+		div{text-align: center;}
+		input{font-size: 25px; background: transparent; border-color: white; border-radius: 20px; color: orangered; padding: 10px; font-family: "Gabriela";}
+		textarea{font-size: 25px; background: transparent; border-color: white; border-radius: 20px;}
+	</style>
+</head>
+<body>
+	<br>
+	<div id="form">
+	<form>
+		<label for="Father">Name : <input type="text" name="Name"><br><br>
+			<label for="Gender">Gender : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Male"> Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Female">Female</label><br><br>
+		<label for="Father">Father's Name : </label><input type="text" name="Name"><br><br>
+		<label for="Father">Mother's Name : </label><input type="text" name="Name"><br><br>
+		<label for="Father">Address : </label><textarea></textarea><br><br>
+		<label for="Father">Email : </label><input type="text" name="Name"><br><br>
+		<label for="Father">Mobile Number : </label><input type="Number" name="Name"><br><br>
+		<label for="Father">Password : </label><input type="Password" name="Name"><br><br>
+	</form>
+	</div>
+</body>
