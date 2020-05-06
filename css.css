@@ -1,4 +1,10 @@
 body{
     background-color: black;
     color: white;
+    padding: 20% 45%;
+    font-family: Google Sans;
+}
+p{
+    width: 200px;
+    text-align: center;
 }
