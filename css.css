@@ -117,11 +117,14 @@ hr {
     width: 0%;
   }
 }
+.cpp{
+  width: 20%;
+}
 .python{
-  width: 40%;
+  width: 30%;
 }
 .js{
-  width: 50%;
+  width: 40%;
 }
 .social{
   text-align: center;
