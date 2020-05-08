@@ -93,12 +93,12 @@ hr {
   display: inline-block;
   margin-left: 5%;
   width: 20%;
-  margin-right: 10%;
+  margin-right: 20%;
   font-size: 20px;
 }
 .item .bar {
   display: inline-block;
-  width: 60%;
+  width: 50%;
   height: 20px;
   border-radius: 50px;
   margin-bottom: -3px;
