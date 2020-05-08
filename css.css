@@ -10,6 +10,7 @@ body {
   background: linear-gradient(to right, #de6262, #ffb88c);
 }
 .boundary{
+  box-sizing: border-box;
   position: absolute;
   left: 50%;
   top: 10%;
