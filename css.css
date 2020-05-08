@@ -45,6 +45,11 @@ body {
   text-align: center;
   margin-top: 100px;
 }
+@media (max-width:768px){
+  .profilePic{
+    margin-top: 50px;
+  }
+}
 .profilePic img{
   height: 200px;
   width: 200px;
