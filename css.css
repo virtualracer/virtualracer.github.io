@@ -1,10 +1,14 @@
-body{
-    background-color: black;
-    color: white;
-    padding: 20% 45%;
-    font-family: Google Sans;
+@font-face {
+  font-family: "Museo";
+  src: url("font/Museo_Slab_300.otf");
 }
-p{
-    width: 200px;
-    text-align: center;
+body {
+  background: black;
+  color: white;
+  padding: 25% 50%;
+}
+
+.fab {
+  transition: 1s;
+  font-size: 45px;
 }
