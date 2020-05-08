@@ -66,13 +66,12 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 50px;
 }
 .projects .projectContainer .item {
   transition: 0.5s;
-  height: 250px;
+  height: 300px;
   width: 400px;
-  margin: 25px;
+  margin: 50px;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
 }
@@ -85,19 +84,19 @@ hr {
   text-align: center;
   font-size: 30px;
   font-family: "ALegreya SC";
-  line-height: 240px;
+  line-height: 280px;
 }
 .skills .skillContainer .item {
   margin-bottom: 100px;
 }
-.item .name {
+.skillContainer .item .name {
   display: inline-block;
   margin-left: 5%;
   width: 20%;
   margin-right: 20%;
   font-size: 20px;
 }
-.item .bar {
+.skillContainer .item .bar {
   display: inline-block;
   width: 50%;
   height: 20px;
