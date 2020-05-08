@@ -2,13 +2,47 @@
   font-family: "Museo";
   src: url("font/Museo_Slab_300.otf");
 }
-body {
-  background: black;
-  color: white;
-  padding: 25% 50%;
+*{
+  font-family: Alegreya;
+  font-weight: regular;
 }
-
-.fab {
-  transition: 1s;
-  font-size: 45px;
+body {
+  background: linear-gradient(to right, #de6262, #ffb88c);
+}
+.boundary{
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  width: 70%;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 3px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.363);
+}
+.boundary{
+  animation: high 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes high{
+  0%{
+    opacity: 0;
+    height: 0px;
+  }
+  100%{
+    opacity: 1;
+    height: 1000px;
+  }
+}
+.profilePic{
+  text-align: center;
+  margin-top: 100px;
+}
+.profilePic img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(90, 90, 90);
+}
+.profilePic p{
+  font-size: 30px;
 }
