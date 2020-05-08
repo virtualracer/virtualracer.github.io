@@ -16,24 +16,11 @@ body {
   top: 10%;
   transform: translateX(-50%);
   width: 70%;
+  height: 1000px;
   background: rgb(255, 255, 255, 0.1);
   border-radius: 3px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.363);
   padding: 0% 5%;
-}
-.boundary{
-  animation: high 3s;
-  animation-fill-mode: forwards;
-}
-@keyframes high{
-  0%{
-    opacity: 0;
-    height: 0px;
-  }
-  100%{
-    opacity: 1;
-    height: 1000px;
-  }
 }
 @media (max-width:768px){
   .boundary{
