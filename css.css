@@ -134,11 +134,10 @@ hr {
   font-size: 30px;
 }
 .fab{
-  transition: .5s;
+  transition: .3s;
   font-size: 25px;
   margin: 20px;
 }
 .fab:hover{
-  font-size: 35px;
-  margin: 15px;
+  transform: scale(1.5);
 }
