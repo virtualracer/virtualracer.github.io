@@ -141,3 +141,7 @@ hr {
 .fab:hover{
   transform: scale(1.5);
 }
+a{
+  text-decoration: none;
+  color: black;
+}
