@@ -46,7 +46,7 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 20px rgb(0, 0, 0);
+  box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 .profilePic .name {
   font-size: 40px;
