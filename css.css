@@ -98,7 +98,7 @@ hr {
   font-family: "ALegreya SC";
   line-height: 280px;
 }
-.skills .skillContainer .item {
+/* .skills .skillContainer .item {
   margin-bottom: 100px;
 }
 .skillContainer .item .name {
@@ -137,7 +137,7 @@ hr {
 }
 .js{
   width: 40%;
-}
+} */
 .social{
   text-align: center;
   font-size: 20px;
