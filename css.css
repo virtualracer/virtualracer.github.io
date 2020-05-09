@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background: linear-gradient(to right, #de6262, #e74c3c);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 .boundary {
   box-sizing: border-box;
