@@ -25,10 +25,10 @@ body {
   transform: translateX(-50%);
   width: 70%;
   height: fit-content;
-  
   border-radius: 3px;
-
   padding: 0% 5%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255, 0.1);
 }
 .boundary:hover{
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.363);
@@ -146,7 +146,7 @@ hr {
 .fa-envelope-open{
   font-size: 30px;
 }
-.fab{
+.fab, .far{
   transition: .3s;
   font-size: 25px;
   margin: 20px;
@@ -157,4 +157,7 @@ hr {
 a{
   text-decoration: none;
   color: black;
+}
+.far{
+  padding-left: 4px;
 }
