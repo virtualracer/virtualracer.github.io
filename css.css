@@ -23,6 +23,17 @@ html{
 .dark hr{
   background-color: white;
 }
+.dark .projects .projectContainer .item{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.dark .boundary{
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0px rgba(255, 255, 255, .2);
+}
+.dark .boundary:hover{
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 30px rgba(255, 255, 255, .2);
+}
 .boundary {
   transition: .5s;
   box-sizing: border-box;
