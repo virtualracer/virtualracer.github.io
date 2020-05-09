@@ -16,6 +16,7 @@ body {
   
 }
 .boundary {
+  transition: .5s;
   box-sizing: border-box;
   position: absolute;
   left: 50%;
@@ -24,10 +25,14 @@ body {
   transform: translateX(-50%);
   width: 70%;
   height: fit-content;
-  background: rgb(255, 255, 255, 0.1);
+  
   border-radius: 3px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.363);
+
   padding: 0% 5%;
+}
+.boundary:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.363);
+  background: rgb(255, 255, 255, 0.1);
 }
 @media (max-width: 1000px) {
   .boundary {
@@ -85,6 +90,7 @@ hr {
 .projects .projectContainer .item:hover {
   box-shadow: none;
   font-size: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .projects .projectContainer .item {
   box-sizing: border-box;
