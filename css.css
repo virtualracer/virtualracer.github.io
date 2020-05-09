@@ -9,10 +9,19 @@
 html{
   scroll-behavior: smooth;
 }
-body {
-  background: #00d2ff;
-  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+.light{
   background: linear-gradient(to right, #3a7bd5, #00d2ff); 
+}
+.dark{
+  transition: background .5s;
+  background: black;
+  color: white;
+}
+.dark a{
+  color: white;
+}
+.dark hr{
+  background-color: white;
 }
 .boundary {
   transition: .5s;
@@ -57,7 +66,6 @@ body {
 }
 .profilePic .name {
   font-size: 40px;
-  color: black;
   text-shadow: 0 0 3px rgb(54, 54, 54);
 }
 .profilePic .bio {
@@ -146,7 +154,7 @@ hr {
   font-size: 30px;
 }
 .fab, .far{
-  transition: .3s;
+  transition: .5s;
   font-size: 25px;
   margin: 20px;
 }
@@ -157,6 +165,6 @@ a{
   text-decoration: none;
   color: black;
 }
-.far{
-  padding-left: 4px;
+.fa-moon{
+  margin: 20px 0px;
 }
