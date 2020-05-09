@@ -30,8 +30,7 @@ body {
   .boundary {
     top: 2%;
     width: 95%;
-    background: none;
-    box-shadow: none;
+    background: transparent;
   }
 }
 .profilePic {
