@@ -72,10 +72,14 @@ body{
   }
 }
 .profilePic img {
+  transition: .5s;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.profilePic img:hover {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .profilePic .name {
   font-size: 40px;
