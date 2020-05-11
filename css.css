@@ -172,7 +172,12 @@ hr {
   margin: 20px;
 }
 .fas{   /* moon & sun */
+  transition: .5s;
   font-size: 25px;
+  cursor: pointer;
+}
+.fas:hover{
+  transform: rotate(1080deg);
 }
 .fab:hover{
   transform: scale(1.5);
