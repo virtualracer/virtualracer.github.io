@@ -51,10 +51,6 @@ body{
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   background: rgb(255, 255, 255, 0.1);
 }
-.boundary:hover{
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.363);
-  background: rgb(255, 255, 255, 0.1);
-}
 @media (max-width: 1000px) {
   .boundary {
     top: 2%;
