@@ -27,12 +27,12 @@ body{
 }
 .dark .projects .projectContainer .item{
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  border: 1px solid rgb(0, 0, 0);
+}
+.dark .projects .projectContainer .item:hover{
+  border: 1px solid rgb(124, 124, 124);
 }
 .dark .boundary{
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0 0px rgba(255, 255, 255, .2);
-}
-.dark .boundary:hover{
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 0 30px rgba(255, 255, 255, .2);
 }
@@ -167,9 +167,12 @@ hr {
   font-size: 30px;
 }
 .fab, .far{
-  transition: .5s;
+  transition: .2s;
   font-size: 25px;
   margin: 20px;
+}
+.fas{
+  font-size: 25px;
 }
 .fab:hover{
   transform: scale(1.5);
