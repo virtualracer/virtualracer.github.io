@@ -30,7 +30,7 @@ body{
   border: 1px solid rgb(0, 0, 0);
 }
 .dark .projects .projectContainer .item:hover{
-  border: 1px solid rgb(124, 124, 124);
+  border: 1px solid rgb(56, 56, 56);
 }
 .dark .boundary{
   background: rgba(255, 255, 255, 0.05);
@@ -172,11 +172,11 @@ hr {
   margin: 20px;
 }
 .fas{   /* moon & sun */
-  transition: .5s;
   font-size: 25px;
   cursor: pointer;
 }
 .fas:hover{
+  transition: .5s;
   transform: rotate(1080deg);
 }
 .fab:hover{
