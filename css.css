@@ -175,8 +175,8 @@ hr {
   font-size: 25px;
   cursor: pointer;
 }
-.fas:hover{
-  transition: .5s;
+.fa-sun:hover{
+  transition: transform .5s;
   transform: rotate(1080deg);
 }
 .fab:hover{
