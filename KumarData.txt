@@ -1,6 +1,0 @@
-Your Food Stats Are:
-[2020-05-11 21:17:19.103482] Egg
-Your Food Stats Are:
-[2020-05-11 21:18:30.411698] 
-Your Food Stats Are:
-[2020-05-11 21:21:05.691385] Roti

@@ -2,6 +2,10 @@
   font-family: "Museo";
   src: url("font/Museo_Slab_300.otf");
 }
+@font-face {
+  font-family: "Brandon";
+  src: url("font/Brandon_reg.woff");
+}
 * {
   font-family: Museo;
   font-weight: regular;
@@ -79,7 +83,7 @@ html{
   text-shadow: 0 0 3px rgb(54, 54, 54);
 }
 .profilePic .bio {
-  font-family: Alegreya;
+  font-family: Brandon;
   font-size: 25px;
 }
 hr {
@@ -159,6 +163,10 @@ hr {
 .social{
   text-align: center;
   font-size: 20px;
+}
+.social a{
+  font-family: Brandon;
+  font-size: larger;
 }
 .fa-envelope-open{
   font-size: 30px;
