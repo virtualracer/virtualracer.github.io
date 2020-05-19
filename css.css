@@ -7,7 +7,7 @@
   src: url("font/Brandon_reg.woff");
 }
 * {
-  font-family: Museo;
+  font-family: Brandon;
   font-weight: regular;
 }
 html{
@@ -80,10 +80,9 @@ html{
 }
 .profilePic .name {
   font-size: 40px;
-  text-shadow: 0 0 3px rgb(54, 54, 54);
+  text-shadow: 0 0 2px rgb(54, 54, 54);
 }
 .profilePic .bio {
-  font-family: Brandon;
   font-size: 25px;
 }
 hr {
@@ -165,7 +164,6 @@ hr {
   font-size: 20px;
 }
 .social a{
-  font-family: Brandon;
   font-size: larger;
 }
 .fa-envelope-open{
