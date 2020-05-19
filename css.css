@@ -204,7 +204,9 @@ a{
   margin: 20px 0px;
 }
 
-
+.item .title{
+  opacity: 0;
+}
 .about{
   line-height: 50px;
   margin: -220px 0px;
@@ -217,5 +219,5 @@ a{
 }
 
 .item:hover .about{
-  opacity: 1;
+  opacity: 0;
 }
