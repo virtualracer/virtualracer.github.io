@@ -229,7 +229,7 @@ hr {
   transform: scale(1.5) rotate(360deg);
 }
 .far:hover{
-  transform: rotate(540deg);
+  transform: rotate(720deg);
 }
 a{
   text-decoration: none;
