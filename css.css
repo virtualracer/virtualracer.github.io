@@ -75,6 +75,13 @@ html{
   border-radius: 50%;
   box-shadow: 0 0 15px rgb(0, 0, 0);
 }
+@media (max-width: 1000px) {
+  .profilePic img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
 .profilePic img:hover {
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -82,8 +89,18 @@ html{
   font-size: 40px;
   text-shadow: 0 0 2px rgb(54, 54, 54);
 }
+@media (max-width: 1000px) {
+  .profilePic .name{
+    font-size: 35px;
+  }
+}
 .profilePic .bio {
   font-size: 25px;
+}
+@media (max-width: 1000px) {
+  .profilePic .bio{
+    font-size: 20px;
+  }
 }
 hr {
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -123,6 +140,24 @@ hr {
   font-size: 30px;
   font-family: "ALegreya SC";
   line-height: 280px;
+}
+
+.item .title{
+  opacity: 0;
+}
+.about{
+  line-height: 50px;
+  margin: -220px 0px;
+  padding: 20px;
+  opacity: 0;
+}
+
+.item:hover .title{
+  opacity: 0;
+}
+
+.item:hover .about{
+  opacity: 0;
 }
 /* .skills .skillContainer .item {
   margin-bottom: 100px;
@@ -202,22 +237,4 @@ a{
 }
 #mode{
   margin: 20px 0px;
-}
-
-.item .title{
-  opacity: 0;
-}
-.about{
-  line-height: 50px;
-  margin: -220px 0px;
-  padding: 20px;
-  opacity: 0;
-}
-
-.item:hover .title{
-  opacity: 0;
-}
-
-.item:hover .about{
-  opacity: 0;
 }
