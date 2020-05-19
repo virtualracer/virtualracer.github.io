@@ -107,9 +107,14 @@ hr {
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
 }
+.projects .projectContainer .item .title{
+  transition: .3s;
+}
+.projects .projectContainer .item .about{
+  transition: .5s;
+}
 .projects .projectContainer .item:hover {
   box-shadow: none;
-  font-size: 35px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 .projects .projectContainer .item {
@@ -197,4 +202,20 @@ a{
 }
 #mode{
   margin: 20px 0px;
+}
+
+
+.about{
+  line-height: 50px;
+  margin: -200px  0px;
+  width: inherit;
+  opacity: 0;
+}
+
+.item:hover .title{
+  opacity: 0;
+}
+
+.item:hover .about{
+  opacity: 1;
 }
