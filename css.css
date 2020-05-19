@@ -207,8 +207,8 @@ a{
 
 .about{
   line-height: 50px;
-  margin: -200px  0px;
-  width: inherit;
+  margin: -220px 0px;
+  padding: 20px;
   opacity: 0;
 }
 
