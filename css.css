@@ -9,6 +9,7 @@
 * {
   font-family: Brandon;
   font-weight: regular;
+  font-display: fallback;
 }
 html{
   scroll-behavior: smooth;
