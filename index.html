@@ -37,7 +37,7 @@
             </div>
             <div class="about">
               About
-              <br>
+              <br />
               <i class="fab fa-github"></i>
             </div>
           </div>
@@ -47,7 +47,7 @@
             </div>
             <div class="about">
               About2
-              <br>
+              <br />
               <i class="fab fa-github"></i>
             </div>
           </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="about">
               About3
-              <br>
+              <br />
               <i class="fab fa-github"></i>
             </div>
           </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="about">
               About4
-              <br>
+              <br />
               <i class="fab fa-github"></i>
             </div>
           </div>
@@ -134,7 +134,7 @@
           <br />
           <br />
           <a href="https://www.facebook.com/moi.loif.moi.rulez" target="_blank">
-            <i class="fab fab fa-facebook-square"></i>
+            <i class="fab fa-facebook-square"></i>
           </a>
           <a href="https://twitter.com/krsambhav16" target="_blank">
             <i class="fab fa-twitter"></i>
@@ -145,21 +145,28 @@
           <a href="https://t.me/krsam1" target="_blank">
             <i class="fab fa-telegram-plane"></i>
           </a>
-          <a href=""> <i class="fab fa-linkedin"></i>
-          </a>
+          <a href=""> <i class="fab fa-linkedin"></i> </a>
           <br />
           <i class="fas fa-moon" onclick="changeMode()" id="mode"></i>
-          <br>
+          <br />
           <a href="#">
             <i class="far fa-arrow-alt-circle-up"></i>
           </a>
-          
+
           <br />
           <br />
           <br />
         </div>
       </div>
     </div>
+    <script>
+      function changeMode() {
+        var bodyClass = document.body.className;
+        document.body.className = bodyClass == "light" ? "dark" : "light";
+        var modeChanger = document.getElementById("mode");
+        modeChanger.className =
+          modeChanger.className == "fas fa-moon" ? "fas fa-sun" : "fas fa-moon";
+      }
+    </script>
   </body>
-  <script src="./script.js"></script>
 </html>
