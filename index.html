@@ -167,8 +167,10 @@
         var bodyClass = document.body.className;
         document.body.className = bodyClass == "light" ? "dark" : "light";
         var modeChanger = document.getElementById("mode");
+        var moon = "fas fa-moon";
+        var sun = "fas fa-sun";
         modeChanger.className =
-          modeChanger.className == "fas fa-moon" ? "fas fa-sun" : "fas fa-moon";
+          modeChanger.className == moon ? sun : moon;
       }
     </script>
   </body>
