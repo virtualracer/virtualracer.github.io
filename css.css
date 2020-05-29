@@ -14,6 +14,9 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  margin: 0.1px;
+}
 .light{
   background: linear-gradient(to right, #3a7bd5, #00d2ff); 
 }
@@ -238,4 +241,7 @@ a{
 }
 #mode{
   margin: 20px 0px;
+}
+.projects{
+  display: none;
 }
