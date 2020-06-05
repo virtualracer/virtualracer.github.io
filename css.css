@@ -19,7 +19,6 @@ body{
 }
 .light{
   background: linear-gradient(to right, #3a7bd5, #00d2ff); 
-  background-color: #4585df; 
 }
 .dark{
   background: black;
@@ -44,18 +43,17 @@ body{
 }
 .boundary {
   transition: .5s;
+  position: relative;
   box-sizing: border-box;
-  position: absolute;
   left: 50%;
-  top: 10%;
-  margin-bottom: 10%;
   transform: translateX(-50%);
   width: 70%;
-  height: fit-content;
   border-radius: 3px;
-  padding: 0% 5%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   background: rgb(255, 255, 255, 0.1);
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2% 5%;
 }
 @media (max-width: 1000px) {
   .boundary {
@@ -86,7 +84,6 @@ body{
     width: 150px;
   }
 }
-
 .profilePic img:hover {
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -146,7 +143,6 @@ hr {
   font-family: "ALegreya SC";
   line-height: 280px;
 }
-
 .item .title{
   opacity: 0;
 }
@@ -156,11 +152,9 @@ hr {
   padding: 20px;
   opacity: 0;
 }
-
 .item:hover .title{
   opacity: 0;
 }
-
 .item:hover .about{
   opacity: 0;
 }
