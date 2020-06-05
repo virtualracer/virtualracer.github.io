@@ -57,6 +57,7 @@ body{
 }
 @media (max-width: 1000px) {
   .boundary {
+    margin-top: 2vh;
     top: 2%;
     width: 95%;
     background: transparent;
