@@ -47,7 +47,7 @@ body{
   box-sizing: border-box;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 65%;
   border-radius: 3px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   background: rgb(255, 255, 255, 0.1);
