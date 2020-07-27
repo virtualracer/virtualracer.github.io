@@ -222,8 +222,8 @@ hr {
   cursor: pointer;
 }
 .fa-sun:hover{
-  transition: transform .5s;
-  transform: rotate(1080deg);
+  transition: transform 2s;
+  transform: rotate(90deg);
 }
 .fab:hover{
   transform: scale(1.2);
