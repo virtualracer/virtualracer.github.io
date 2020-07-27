@@ -12,7 +12,7 @@
   <body class="light">
     <div class="boundary">
       <div class="profilePic">
-        <img src="./assets/profile.jpg" alt="Image" />
+        <img id="dp" src="./assets/profile.jpg" alt="Image" />
         <p class="name">Kumar Sambhav</p>
         <p class="bio">
           Apart from being a newbie at web development & competitive
@@ -144,23 +144,35 @@
           </a>
           <a href=""> <i class="fab fa-linkedin"></i> </a>
           <br />
-          <a href="#">
             <i class="fas fa-moon" onclick="changeMode()" id="mode"></i>
-          </a>
-          <br />
           <br />
         </div>
       </div>
     </div>
     <script>
+      autoChangeMode();
+      let img = document.getElementById('dp');
+      img.onclick = function() {
+        changeMode();
+      }
       function changeMode() {
         var bodyClass = document.body.className;
         document.body.className = bodyClass == "light" ? "dark" : "light";
         var modeChanger = document.getElementById("mode");
         var moon = "fas fa-moon";
         var sun = "fas fa-sun";
+        let darkMode = 0;
         modeChanger.className =
           modeChanger.className == moon ? sun : moon;
+        if(modeChanger.className == moon)
+          darkMode = 0;
+        else
+          darkMode = 1;
+        localStorage.setItem('darkMode', darkMode);
+      }
+      function autoChangeMode(){
+        let storedMode = localStorage.getItem('darkMode');
+        if(storedMode == 1) changeMode();
       }
     </script>
   </body>
