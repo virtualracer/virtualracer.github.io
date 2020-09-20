@@ -1,2 +1,2 @@
-### ``virtualracer.github.io``
+### virtualracer.github.io
 ``Simple Portfolio``
