@@ -54,15 +54,15 @@ let details = {
   SYL:
     "CSP208 Operating Systems Lab - Sonal Yadav <br><br> <a href='https://meet.google.com/lookup/axkb53ehqy'> Meet Link </a>",
   SSCT:
-    "CST210 Introduction To Logic & Formal Methods - SSC <br><br>",
+    "CST210 Introduction To Logic & Formal Methods - SSC",
   JCL:
-    "HSP202 Professional Communication Lab - JC <br><br>",
+    "HSP202 Professional Communication Lab - JC",
   GSYL:
     "CSP206 Design & Analysis of Algorithms Lab - GSY <br><br> <a href='https://meet.google.com/lookup/ccgtozezbe'> Meet Link </a>",
   CSL:
     "CSP204 Computer Architecture & Organization Lab - CS <br><br> <a href='https://meet.google.com/lookup/hsa44zmgw6'> Meet Link </a>",
   JCT:
-    "HST202 Technical Writing & Professional Communication - JC <br><br> ",
+    "HST202 Technical Writing & Professional Communication - JC",
 
   "N/A": "No Lectures",
 };
