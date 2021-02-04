@@ -44,23 +44,23 @@ let timeTable = {
 
 let details = {
   PMT:
-    "CST202 Software Engineering - Priyanka Mishra <br><br> <a href='https://meet.google.com/lookup/ggyhq6ur3h'> Meet Link </a>",
+    "CST202 Software Engineering - Priyanka Mishra <br><br> <a href='https://meet.google.com/lookup/ggyhq6ur3h'> <img src='./assets/meet.png' height='40'> </a>",
   GSYT:
-    "CST206 Design & Analysis of Algorithms - Gyan Singh <br><br> <a href='https://meet.google.com/lookup/ccgtozezbe'> Meet Link </a>",
+    "CST206 Design & Analysis of Algorithms - Gyan Singh <br><br> <a href='https://meet.google.com/lookup/ccgtozezbe'> <img src='./assets/meet.png' height='40'> </a>",
   AKHT:
-    "CST204 Computer Architecture & Organization - AKH <br><br> <a href='https://meet.google.com/lookup/hsa44zmgw6'> Meet Link </a>",
+    "CST204 Computer Architecture & Organization - AKH <br><br> <a href='https://meet.google.com/lookup/hsa44zmgw6'> <img src='./assets/meet.png' height='40'> </a>",
   SYT:
-    "CST208 Operating Systems - Sonal Yadav <br><br> <a href='https://meet.google.com/lookup/axkb53ehqy'> Meet Link </a>",
+    "CST208 Operating Systems - Sonal Yadav <br><br> <a href='https://meet.google.com/lookup/axkb53ehqy'> <img src='./assets/meet.png' height='40'> </a>",
   SYL:
-    "CSP208 Operating Systems Lab - Sonal Yadav <br><br> <a href='https://meet.google.com/lookup/axkb53ehqy'> Meet Link </a>",
+    "CSP208 Operating Systems Lab - Sonal Yadav <br><br> <a href='https://meet.google.com/lookup/axkb53ehqy'> <img src='./assets/meet.png' height='40'> </a>",
   SSCT:
     "CST210 Introduction To Logic & Formal Methods - SSC",
   JCL:
     "HSP202 Professional Communication Lab - JC",
   GSYL:
-    "CSP206 Design & Analysis of Algorithms Lab - GSY <br><br> <a href='https://meet.google.com/lookup/ccgtozezbe'> Meet Link </a>",
+    "CSP206 Design & Analysis of Algorithms Lab - GSY <br><br> <a href='https://meet.google.com/lookup/ccgtozezbe'> <img src='./assets/meet.png' height='40'> </a>",
   CSL:
-    "CSP204 Computer Architecture & Organization Lab - CS <br><br> <a href='https://meet.google.com/lookup/hsa44zmgw6'> Meet Link </a>",
+    "CSP204 Computer Architecture & Organization Lab - CS <br><br> <a href='https://meet.google.com/lookup/hsa44zmgw6'> <img src='./assets/meet.png' height='40'> </a>",
   JCT:
     "HST202 Technical Writing & Professional Communication - JC",
 
@@ -84,7 +84,8 @@ if(nextClass == undefined){
   nextClass = 'No Lectures'
 }
 
-let currentHour = date.getHours()%12;
+let currentHour = date.getHours();
+// currentHour = currentHour > 12 ? currentHour % 12 : currentHour; 
 
 document.getElementById("previous").innerHTML += `<i>${currentHour - 1} - ${currentHour} : </i> ${previousClass}`;
 document.getElementById("current").innerHTML += `<i>${currentHour} - ${currentHour + 1} : </i> ${currentClass}`;
