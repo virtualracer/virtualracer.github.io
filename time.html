@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Table</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="mainTitle">Time Table</h1>
+    <h3 id="timeContainer"></h3>
+    <br><br><br>
+    <hr>
+    <h2 id="previous"><i>Previous Hour : </i></h2>
+    <hr>
+    <h2 id="current"><i>Right Now : </i></h2>
+    <hr>
+    <h2 id="next"><i>Next Hour : </i></h2>
+    <hr>
+    <script>
+      let timeContainer = document.getElementById('timeContainer');
+      let date = new Date();
+      timeContainer.innerHTML += `${date}`;
+    </script>
+    <script src="./main.js"></script>
+  </body>
+</html>

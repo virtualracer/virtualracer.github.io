@@ -1,0 +1,16 @@
+body{
+  /* background-color: black; */
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  /* color: white; */
+  text-align: center;
+  background-image: url('./bg.jpg');
+}
+#mainTitle{
+  /* font-size: 100px; */
+}
+
+a{
+  text-decoration: none;
+  color: palevioletred;
+}
