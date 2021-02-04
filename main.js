@@ -84,9 +84,11 @@ if(nextClass == undefined){
   nextClass = 'No Lectures'
 }
 
-document.getElementById("previous").innerHTML += previousClass;
-document.getElementById("current").innerHTML += currentClass;
-document.getElementById("next").innerHTML += nextClass;
+let currentHour = date.getHours()%12;
+
+document.getElementById("previous").innerHTML += `<i>${currentHour - 1} - ${currentHour} : </i> ${previousClass}`;
+document.getElementById("current").innerHTML += `<i>${currentHour} - ${currentHour + 1} : </i> ${currentClass}`;
+document.getElementById("next").innerHTML += `<i>${currentHour + 1} - ${currentHour + 2} : </i> ${nextClass}`;
 
 setInterval(() => {
   location.reload()
