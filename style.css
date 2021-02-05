@@ -5,7 +5,7 @@ body{
   /* color: white; */
   text-align: center;
   background-image: url('./bg.jpg');
-  transition: 1s;
+  transition: .5s;
 }
 #mainTitle{
   /* font-size: 100px; */
