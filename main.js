@@ -104,6 +104,8 @@ $(document).ready(function (){
     $('body').css('background-image', 'url(./darkbg.jpg)');
     $('body').css('color', 'grey');
     $('hr').css('border', '1px solid grey');
+    $('#modeChanger').removeClass("fa-moon");
+    $('#modeChanger').addClass("fa-sun");
   }
 })
 
