@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
   <body>
     <h1 id="mainTitle">Time Table</h1>
@@ -22,11 +23,13 @@
     <hr>
     <h3 id="next"></h2>
     <hr>
+    <i class="fas fa-moon" id="modeChanger"></i>
     <script>
       let timeContainer = document.getElementById('timeContainer');
       let date = new Date();
       timeContainer.innerHTML += `${date}`;
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

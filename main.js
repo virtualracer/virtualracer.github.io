@@ -94,3 +94,35 @@ document.getElementById("next").innerHTML += `<i>${currentHour + 1} - ${currentH
 setInterval(() => {
   location.reload()
 }, 60000)
+
+let darkMode = false;
+
+$(document).ready(function (){
+  darkMode = localStorage.getItem('darkMode') == 'true' ? true : false;
+  if (darkMode == true) {
+    localStorage.setItem('darkMode', 'true')
+    $('body').css('background-image', 'url(./darkbg.jpg)');
+    $('body').css('color', 'grey');
+    $('hr').css('border', '1px solid grey');
+  }
+})
+
+$('#modeChanger').click(function(){
+  if(darkMode == false){
+    darkMode = true;
+    localStorage.setItem('darkMode', 'true')
+    $('body').css('background-image', 'url(./darkbg.jpg)');
+    $('body').css('color', 'grey');
+    $('hr').css('border', '1px solid grey');
+    $('#modeChanger').removeClass("fa-moon");
+    $('#modeChanger').addClass("fa-sun");
+  } else {
+    darkMode = false;
+    localStorage.setItem('darkMode', 'false')
+    $('body').css('background-image', 'url(./bg.jpg)');
+    $('body').css('color', 'black');
+    $('hr').css('border', '');
+    $('#modeChanger').addClass("fa-moon");
+    $('#modeChanger').removeClass("fa-sun");
+  }
+})
