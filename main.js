@@ -69,9 +69,9 @@ let details = {
 
 // let date = new Date();
 
-let previousClass = details[timeTable[date.getDay()][(date.getHours()-1) % 12]];
-let currentClass = details[timeTable[date.getDay()][date.getHours() % 12]];
-let nextClass = details[timeTable[date.getDay()][(date.getHours()+1) % 12]];
+let previousClass = details[timeTable[date.getDay()][(date.getHours()-1)]];
+let currentClass = details[timeTable[date.getDay()][date.getHours()]];
+let nextClass = details[timeTable[date.getDay()][(date.getHours()+1)]];
 
 
 if(previousClass == undefined){
