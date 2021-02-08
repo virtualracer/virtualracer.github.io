@@ -70,15 +70,15 @@ let details = {
   SYL:
     "CSP208 Operating Systems Lab - Sonal Yadav <br><br> <a href='https://meet.google.com/lookup/axkb53ehqy'> <img src='./assets/meet.png' height='40'> </a>",
   SSCT:
-    "CST210 Introduction To Logic & Formal Methods - SSC",
+    "CST210 Introduction To Logic & Formal Methods - SSC <br><br> <a href='https://meet.google.com/lookup/bgvhf6jojv'> <img src='./assets/meet.png' height='40'> </a>",
   JCL:
-    "HSP202 Professional Communication Lab - JC",
+    "HSP202 Professional Communication Lab - JC <br><br> <a href='https://meet.google.com/lookup/guhdax7nq7'> <img src='./assets/meet.png' height='40'> </a>",
   GSYL:
     "CSP206 Design & Analysis of Algorithms Lab - GSY <br><br> <a href='https://meet.google.com/lookup/ccgtozezbe'> <img src='./assets/meet.png' height='40'> </a>",
   CSL:
     "CSP204 Computer Architecture & Organization Lab - CS <br><br> <a href='https://meet.google.com/lookup/hsa44zmgw6'> <img src='./assets/meet.png' height='40'> </a>",
   JCT:
-    "HST202 Technical Writing & Professional Communication - JC",
+    "HST202 Technical Writing & Professional Communication - JC <br><br> <a href='https://meet.google.com/lookup/guhdax7nq7'> <img src='./assets/meet.png' height='40'> </a>",
 
   "N/A": "No Lectures",
 };
