@@ -17,8 +17,8 @@ let timeTable = {
   },
   3: {
     9: "N/A",
-    10: "SSCT",
-    11: "GSYT",
+    10: "GSYT",
+    11: "SSCT",
     12: "AKHT",
     14: "JCL",
     15: "JCL",
