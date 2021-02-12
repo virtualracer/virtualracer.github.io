@@ -85,12 +85,15 @@ let details = {
 
 // let date = new Date();
 
+let previouspreviousClass = details[timeTable[date.getDay()][(date.getHours()-2)]];
 let previousClass = details[timeTable[date.getDay()][(date.getHours()-1)]];
 let currentClass = details[timeTable[date.getDay()][date.getHours()]];
 let nextClass = details[timeTable[date.getDay()][(date.getHours()+1)]];
 let nextnextClass = details[timeTable[date.getDay()][(date.getHours()+2)]];
 
-
+if(previouspreviousClass == undefined){
+  previousClass = 'No Lectures'
+}
 if(previousClass == undefined){
   previousClass = 'No Lectures'
 }
@@ -107,6 +110,7 @@ if(nextnextClass == undefined){
 let currentHour = date.getHours();
 // currentHour = currentHour > 12 ? currentHour % 12 : currentHour; 
 
+document.getElementById("previousprevious").innerHTML += `<i>${currentHour - 2} - ${currentHour-1} : </i> ${previouspreviousClass}`;
 document.getElementById("previous").innerHTML += `<i>${currentHour - 1} - ${currentHour} : </i> ${previousClass}`;
 document.getElementById("current").innerHTML += `<i>${currentHour} - ${currentHour + 1} : </i> ${currentClass}`;
 document.getElementById("next").innerHTML += `<i>${currentHour + 1} - ${currentHour + 2} : </i> ${nextClass}`;
