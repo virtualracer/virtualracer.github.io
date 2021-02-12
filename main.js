@@ -88,6 +88,7 @@ let details = {
 let previousClass = details[timeTable[date.getDay()][(date.getHours()-1)]];
 let currentClass = details[timeTable[date.getDay()][date.getHours()]];
 let nextClass = details[timeTable[date.getDay()][(date.getHours()+1)]];
+let nextnextClass = details[timeTable[date.getDay()][(date.getHours()+2)]];
 
 
 if(previousClass == undefined){
@@ -99,6 +100,9 @@ if(currentClass == undefined){
 if(nextClass == undefined){
   nextClass = 'No Lectures'
 }
+if(nextnextClass == undefined){
+  nextClass = 'No Lectures'
+}
 
 let currentHour = date.getHours();
 // currentHour = currentHour > 12 ? currentHour % 12 : currentHour; 
@@ -106,6 +110,7 @@ let currentHour = date.getHours();
 document.getElementById("previous").innerHTML += `<i>${currentHour - 1} - ${currentHour} : </i> ${previousClass}`;
 document.getElementById("current").innerHTML += `<i>${currentHour} - ${currentHour + 1} : </i> ${currentClass}`;
 document.getElementById("next").innerHTML += `<i>${currentHour + 1} - ${currentHour + 2} : </i> ${nextClass}`;
+document.getElementById("nextnext").innerHTML += `<i>${currentHour + 2} - ${currentHour + 3} : </i> ${nextnextClass}`;
 
 setInterval(() => {
   location.reload()
