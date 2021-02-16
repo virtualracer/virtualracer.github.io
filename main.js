@@ -92,7 +92,7 @@ let nextClass = details[timeTable[date.getDay()][(date.getHours()+1)]];
 let nextnextClass = details[timeTable[date.getDay()][(date.getHours()+2)]];
 
 if(previouspreviousClass == undefined){
-  previousClass = 'No Lectures'
+  previouspreviousClass = 'No Lectures'
 }
 if(previousClass == undefined){
   previousClass = 'No Lectures'
@@ -104,7 +104,7 @@ if(nextClass == undefined){
   nextClass = 'No Lectures'
 }
 if(nextnextClass == undefined){
-  nextClass = 'No Lectures'
+  nextnextClass = 'No Lectures'
 }
 
 let currentHour = date.getHours();
