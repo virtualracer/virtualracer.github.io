@@ -126,7 +126,7 @@ $(document).ready(function (){
   darkMode = localStorage.getItem('darkMode') == 'true' ? true : false;
   if (darkMode == true) {
     localStorage.setItem('darkMode', 'true')
-    $('body').css('background-image', 'url(./darkbg.jpg)');
+    $('body').css('background-image', 'url(./assets/darkbg.jpg)');
     $('body').css('color', 'grey');
     $('hr').css('border', '1px solid grey');
     $('#modeChanger').removeClass("fa-moon");
@@ -138,7 +138,7 @@ $('#modeChanger').click(function(){
   if(darkMode == false){
     darkMode = true;
     localStorage.setItem('darkMode', 'true')
-    $('body').css('background-image', 'url(./darkbg.jpg)');
+    $('body').css('background-image', 'url(./assets/darkbg.jpg)');
     $('body').css('color', 'grey');
     $('hr').css('border', '1px solid grey');
     $('#modeChanger').removeClass("fa-moon");
@@ -146,7 +146,7 @@ $('#modeChanger').click(function(){
   } else {
     darkMode = false;
     localStorage.setItem('darkMode', 'false')
-    $('body').css('background-image', 'url(./bg.jpg)');
+    $('body').css('background-image', 'url(./assets/bg.jpg)');
     $('body').css('color', 'black');
     $('hr').css('border', '');
     $('#modeChanger').addClass("fa-moon");

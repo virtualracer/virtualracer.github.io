@@ -4,7 +4,7 @@ body{
   font-weight: 300;
   /* color: white; */
   text-align: center;
-  background-image: url('./bg.jpg');
+  background-image: url('./assets/bg.jpg');
   transition: .5s;
 }
 #mainTitle{
