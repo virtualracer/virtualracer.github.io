@@ -238,3 +238,22 @@ a{
 #mode{
   margin: 20px 0px;
 }
+.dark .fa-facebook:hover{
+  color: #4267B2 
+}
+.dark .fa-twitter:hover{
+  color: #1DA1F2 
+}
+.dark .fa-telegram-plane:hover{
+  color: #0088CC 
+}
+.dark .fa-linkedin-in:hover{
+  color: #006192 
+}
+.dark .fa-github:hover{
+  color: #4078c0 
+}
+.dark .fa-sun:hover{
+  transition: 1s;
+  color: yellow;
+}
