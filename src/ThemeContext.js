@@ -11,7 +11,7 @@ function ThemeProvider(props) {
     return 'light'
   })
   useEffect(() => {
-    if (theme == 'dark') {
+    if (theme === 'dark') {
       document.body.classList.add('dark');
     } else {
       document.body.classList.remove('dark');
@@ -19,8 +19,8 @@ function ThemeProvider(props) {
     localStorage.setItem('isDark', theme === 'dark')
   }, [theme])
   function toggleTheme(){
-    setTheme(theme == 'dark' ? 'light' : 'dark');
-    if (theme == 'dark') {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+    if (theme === 'dark') {
       document.body.classList.add('dark');
     } else {
       document.body.classList.remove('dark');
